@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.groups-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.groups-container .group {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.groups-container .group table {
+  width: 90%;
+  margin: 5%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.groups-container .group table th,
+.groups-container .group table td {
+  padding: 5px;
+}
